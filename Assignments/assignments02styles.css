@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body { background-color:skyblue; }
+
+#igottabeme { font-family:Arial,Helvetica,sans-serif; }
+
+.classy { margin-left:10px; }
+
+div { margin-bottom:10px; }
+
+span {
+  width:100px;
+  height:50px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:20px;
+  padding-left:20px;
+  border-style:solid;
+  border-color:blue;
+  border-width:5px;
+  background-color:yellow;
+}
+
+span.a {
+  display:inline;
+  word-wrap:normal;
+}
+
+span.b {
+  display:block;
+}
+
+span.c {
+  display:inline-block;
+  word-wrap:normal;
+}
+
+img[alt="cat icon"] {
+  position:fixed;
+  bottom:0;
+  right:0;
+  z-index:1;
+}
+
+img[alt="dog icon"] {
+  position:relative;
+  bottom:150px;
+  right:50px;
+}
+
+#positionMe {
+  position:relative;
+  background-color:orange;
+}
+
+img[alt="bird icon"] {
+  position:absolute;
+  top:50px;
+  left:250px;
+}
+
+nav {
+  position:sticky;
+  background-color:green;
+  top:0;
+  font-size:20px;
+  opacity:0.9;
+  padding:5px;
+  z-index:1;
+}
+/*code for HTML table*/
+table {
+  width:100%; 
+  border-width:1px;
+}
+
+/*pre-existing CSS code*/
+.stripey tr:nth-child(even) { background-color:gray; }
+
+.stripey tr:nth-child(odd) { background-color:white; }
+
+.stripey th {
+  color:white;
+  background-color:black;
+}
+
+.mousey td:hover { background-color:yellow; }
+
+.rightey td:nth-child(5) { text-align:right; }
+
+input[type="text"].pinkey:focus { background-color:pink; }
